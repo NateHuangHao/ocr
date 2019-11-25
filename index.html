@@ -1,0 +1,23 @@
+<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>基于python的手写数字识别</h1>
+    <div class="container" id="container">
+        <!-- 创建画布 -->
+        <canvas id="canvas" width="320" height="320"></canvas>
+        <!-- 创建 -->
+        <div class="input-item">
+            <select class="select">
+                <option value="knn">使用KNN算法</option>
+                <option value="ocr">使用神经网络</option>
+            </select>
+            <div id="identify" class="btn btn-success">识别</div>
+            <div id="refresh" class="btn btn-normal">刷新</div>
+        </div>
+    </div>
+</body>
+<script src="jquery.js"></script>
+<script src="index.js"></script>
+</html>
